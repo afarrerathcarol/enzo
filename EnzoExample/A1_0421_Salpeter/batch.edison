@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH -q regular
+#SBATCH -N 8
+#SBATCH -t 04:00:00
+#SBATCH -L SCRATCH     #note: specify license need for the file systems your job needs, such as SCRATCH,project
+#SBATCH --mail-type=BEGIN,END
+###SBATCH --mail-type=END
+#SBATCH --mail-user=rg00185@gmail.com
+
+g++ CTNC_BubbleInitialize.C -o bubble.o
+./bubble.o
+srun -n 192 ./enzo.exe -d -r DD0090/DD0090
+
+# CollapseTestNonCosmological.enzo        

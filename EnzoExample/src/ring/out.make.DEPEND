@@ -1,0 +1,73 @@
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/stdio.h, line 33): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/_G_config.h, line 15): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/wchar.h, line 51): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/libio.h, line 49): cannot find include file "stdarg.h"
+	not in ./stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/stdlib.h, line 32): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  /usr/include/time.h includes /usr/include/bits/types.h more than once!
+Already have
+	/usr/include/bits/types.h
+makedepend: warning:  /usr/include/time.h includes /usr/include/bits/types.h more than once!
+Already have
+	/usr/include/bits/types.h
+makedepend: warning:  /usr/include/time.h includes /usr/include/bits/types.h more than once!
+Already have
+	/usr/include/bits/types.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/sys/types.h, line 146): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  Enzo_Dims_create.C (reading /usr/include/alloca.h, line 24): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  /usr/include/math.h includes /usr/include/bits/mathcalls.h more than once!
+Already have
+	/usr/include/features.h
+	/usr/include/bits/math-vector.h
+	/usr/include/bits/huge_val.h
+	/usr/include/bits/huge_valf.h
+	/usr/include/bits/huge_vall.h
+	/usr/include/bits/inf.h
+	/usr/include/bits/nan.h
+	/usr/include/bits/mathdef.h
+	/usr/include/bits/mathcalls.h
+makedepend: warning:  /usr/include/math.h includes /usr/include/bits/mathcalls.h more than once!
+Already have
+	/usr/include/features.h
+	/usr/include/bits/math-vector.h
+	/usr/include/bits/huge_val.h
+	/usr/include/bits/huge_valf.h
+	/usr/include/bits/huge_vall.h
+	/usr/include/bits/inf.h
+	/usr/include/bits/nan.h
+	/usr/include/bits/mathdef.h
+	/usr/include/bits/mathcalls.h
+makedepend: warning:  Enzo_Dims_create.C, line 6: cannot find include file "mpi.h"
+	not in mpi.h
+	not in mpi.h
+	not in ./mpi.h
+	not in /usr/include/mpi.h
+makedepend: warning:  MPIO_Decomp.C, line 7: cannot find include file "mpi.h"
+	not in ./mpi.h
+	not in /usr/include/mpi.h
+makedepend: warning:  MPIO_Decomp.C, line 8: cannot find include file "hdf5.h"
+	not in ./hdf5.h
+	not in /usr/include/hdf5.h
+makedepend: warning:  MPIO_Decomp.C (reading /usr/include/string.h, line 32): cannot find include file "stddef.h"
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  Ring_Decomp.C, line 7: cannot find include file "mpi.h"
+	not in ./mpi.h
+	not in /usr/include/mpi.h
+makedepend: warning:  Ring_Decomp.C, line 8: cannot find include file "hdf5.h"
+	not in ./hdf5.h
+	not in /usr/include/hdf5.h
+makedepend: warning:  cannot open "*.src"

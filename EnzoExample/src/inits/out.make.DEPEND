@@ -1,0 +1,336 @@
+makedepend: warning:  AutomaticSubgridGeneration.C, line 13: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  AutomaticSubgridGeneration.C, line 14: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  AutomaticSubgridGeneration.C, line 15: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  CMB_EvaluatePowerSpectrum.C, line 16: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  CMB_EvaluatePowerSpectrum.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  CMB_EvaluatePowerSpectrum.C, line 18: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  CMB_EvaluatePowerSpectrum.C, line 19: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  CosmologyReadParameters.C, line 16: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  CosmologyReadParameters.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  EvaluatePowerSpectrum.C, line 16: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  EvaluatePowerSpectrum.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  EvaluatePowerSpectrum.C, line 18: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  EvaluatePowerSpectrum.C, line 19: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  FCol.C, line 1: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  FastFourierTransform.C, line 21: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  FastFourierTransform.C, line 22: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  FastFourierTransformPrepareComplex.C, line 20: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  FastFourierTransformPrepareComplex.C, line 21: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  FastFourierTransformPrepareComplex.C, line 22: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  FastFourierTransformSGIMATH.C, line 21: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  FastFourierTransformSGIMATH.C, line 22: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  GenerateField.C, line 14: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  GenerateField.C, line 15: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  GenerateField.C, line 16: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  GenerateRealization.C, line 13: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  GenerateRealization.C, line 14: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  InitializePowerSpectrum.C, line 16: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  InitializePowerSpectrum.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  InitializePowerSpectrum.C, line 18: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  InitializePowerSpectrum.C, line 19: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  InterpretCommandLine.C, line 14: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  InterpretCommandLine.C, line 15: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  InterpretCommandLine.C, line 16: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  Main.C, line 16: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  Main.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  ReadParameterFile.C, line 19: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  ReadParameterFile.C, line 20: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  ReadParameterFile.C, line 21: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  ReadPowerSpectrumParameters.C, line 16: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  ReadPowerSpectrumParameters.C, line 17: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  SetParameterDefaults.C, line 19: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  SetParameterDefaults.C, line 20: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  SetParameterDefaults.C, line 21: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5public.h, line 38): cannot find include file "sys/types.h"
+	not in /usr/local/opt/hdf5@1.8/include/sys/types.h
+	not in /Developer/CUDA/common/inc/sys/types.h
+	not in ./sys/types.h
+	not in /usr/include/sys/types.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5public.h, line 41): cannot find include file "limits.h"
+	not in /usr/local/opt/hdf5@1.8/include/limits.h
+	not in /Developer/CUDA/common/inc/limits.h
+	not in ./limits.h
+	not in /usr/include/limits.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5public.h, line 45): cannot find include file "stdint.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdint.h
+	not in /Developer/CUDA/common/inc/stdint.h
+	not in ./stdint.h
+	not in /usr/include/stdint.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5public.h, line 53): cannot find include file "inttypes.h"
+	not in /usr/local/opt/hdf5@1.8/include/inttypes.h
+	not in /Developer/CUDA/common/inc/inttypes.h
+	not in ./inttypes.h
+	not in /usr/include/inttypes.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5public.h, line 56): cannot find include file "stddef.h"
+	not in /usr/local/opt/hdf5@1.8/include/stddef.h
+	not in /Developer/CUDA/common/inc/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5Epublic.h, line 20): cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/local/opt/hdf5@1.8/include/H5Gpublic.h, line 28): cannot find include file "sys/types.h"
+	not in /usr/local/opt/hdf5@1.8/include/sys/types.h
+	not in /Developer/CUDA/common/inc/sys/types.h
+	not in ./sys/types.h
+	not in /usr/include/sys/types.h
+makedepend: warning:  XChunk_WriteField.C, line 15: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  XChunk_WriteField.C, line 16: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  XChunk_WriteField.C, line 17: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  XChunk_WriteField.C, line 18: cannot find include file "assert.h"
+	not in /usr/local/opt/hdf5@1.8/include/assert.h
+	not in /Developer/CUDA/common/inc/assert.h
+	not in ./assert.h
+	not in /usr/include/assert.h
+makedepend: warning:  XChunk_WriteIntField.C, line 15: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  XChunk_WriteIntField.C, line 16: cannot find include file "string.h"
+	not in /usr/local/opt/hdf5@1.8/include/string.h
+	not in /Developer/CUDA/common/inc/string.h
+	not in ./string.h
+	not in /usr/include/string.h
+makedepend: warning:  XChunk_WriteIntField.C, line 17: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  XChunk_WriteIntField.C, line 18: cannot find include file "assert.h"
+	not in /usr/local/opt/hdf5@1.8/include/assert.h
+	not in /Developer/CUDA/common/inc/assert.h
+	not in ./assert.h
+	not in /usr/include/assert.h
+makedepend: warning:  XChunk_WriteIntField.C, line 19: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  eisenstein_power.C, line 1: cannot find include file "math.h"
+	not in /usr/local/opt/hdf5@1.8/include/math.h
+	not in /Developer/CUDA/common/inc/math.h
+	not in ./math.h
+	not in /usr/include/math.h
+makedepend: warning:  eisenstein_power.C, line 2: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  enzo_ranf.C, line 5: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  enzo_ranf.C, line 6: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  enzo_seed.C, line 5: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  enzo_seed.C, line 6: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  test_only.C, line 13: cannot find include file "stdlib.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdlib.h
+	not in /Developer/CUDA/common/inc/stdlib.h
+	not in ./stdlib.h
+	not in /usr/include/stdlib.h
+makedepend: warning:  test_only.C, line 14: cannot find include file "stdio.h"
+	not in /usr/local/opt/hdf5@1.8/include/stdio.h
+	not in /Developer/CUDA/common/inc/stdio.h
+	not in ./stdio.h
+	not in /usr/include/stdio.h
+makedepend: warning:  cannot open "*.src"

@@ -1,0 +1,194 @@
+#
+#  AMR PROBLEM DEFINITION FILE: Non-cosmological Collapse test
+#  Description: a sphere collapses until becoming pressure supported.
+#
+#  define problem
+#
+ProblemType                = 27         // Collapse test
+TopGridRank                = 3
+TopGridDimensions          = 128 128 128  
+SelfGravity                = 1          // gravity on
+TopGridGravityBoundary     = 0          // periodic
+LeftFaceBoundaryCondition  = 1 1 1      // outflow
+RightFaceBoundaryCondition = 1 1 1
+#
+# problem parameters
+#
+CollapseTestRefineAtStart   = 1           // check refinement before running
+CollapseTestNumberOfSpheres = 1
+CollapseTestUseParticles    = 0
+CollapseTestUseMetals       = 1
+CollapseTestInitialTemperature   = 150000 // temperature of the background gas
+CollapseTestInitialDensity       = 1.     // density of the background gas
+#
+CollapseTestFracKeplerianRot[0]  = 0      // If the sphere is rotating or not
+CollapseTestSphereTurbulence[0]  = 1.     // Whether or not to have velocity turbulence, this number will times the maxwellian velocity distribution calculated in the code. 
+CollapseTestSpherePosition[0]    = 0.5 0.5 0.5
+CollapseTestSphereVelocity[0]    = 0.0 0.0 0.0
+CollapseTestSphereRadius[0]      = 0.45
+CollapseTestSphereCoreRadius[0]  = 0.05   // 
+CollapseTestSphereDensity[0]     = 8   // sphere density, the background density is 1
+CollapseTestSphereTemperature[0] = 3000   // put sphere in pressure equilibrium (rho * T is constant)
+CollapseTestSphereType[0]        = 11     // Uniform gas density 
+CollapseTestSphereSubType[0]     = 1      // 1: gradient for background gas, 0: uniform for background gas. Adjust SphereDensity according to the type
+CollapseTestSphereSubTypeSlope[0] = -1.
+CollapseTestSphereConstantPressure[0] = 0
+CollapseTestSphereMetallicity[0]      = 1.0e-20
+CollapseTestSphereHIIFraction[0]      = 1.0e-20
+CollapseTestSphereHeIIFraction[0]     = 1.0e-20
+CollapseTestSphereHeIIIFraction[0]    = 1.0e-20
+CollapseTestSphereHMFraction[0]       = 1.0e-20
+CollapseTestSphereH2IFraction[0]      = 1.0e-20
+CollapseTestSphereH2IIFraction[0]     = 1.0e-20
+CollapseTestSphereNumberOfBubbles[0]                    = 20
+CollapseTestSphereMetallicityDistributionCase[0]        = 8 // 
+# case 7: Shingo's first stars IMF, 10 remnants, (2 ccsne, 8 psne) 1e9. 3 remnants for 1e8 halo, ( 3 psne)
+# case 8: Salpeter's IMF with peak at 10 Msun, 20 remnants, (18 ccsne, 2 hne) 1e9. divide by 2 for 1e8 halo
+# case 9: test 9 remnants, (3 ccsne, 3 hne, 3 pisne) 1e9. (1 ccsne, 1 hne, 1 pisne) for 1e8 halo
+CollapseTestSphereVelocityTowardCenter[0] = 1 // Whether the remnants have initial velocity toward the center, this number will times the velocity calculated in the code.
+#
+# PointSourceGravity
+#
+PointSourceGravity           = 2 // NFW profile
+PointSourceGravityCoreRadius = 3.0857e+21 // (1kpc)  3.0857e+20 (100pc), 1.5429e+22 (5kpc)
+PointSourceGravityPosition   = 0.5 0.5 0.5
+PointSourceGravityConstant   = 1.989e41 // 1.989e41 1e8 M_sun core mass for total 1e9 M_sun halo, (1.989-5.967)e40 (1-3)e7 M_sun core mass for total (1-3)e8 M_sun halo
+CollapseTestSphereDarkMatterHaloMass = 9 // order of the mass, 8 means 1e8 M_sun
+#
+#  units
+#
+DensityUnits          = 1.673e-27      // g cm^-3 (1.673e-24 => 1 hydrogen atoms per cc)
+LengthUnits           = 3.0857e+22     // 10 kpc in cm
+TimeUnits             = 3.1557e+13     // 10^6 yrs 1Myr in s
+GravitationalConstant = 1.39698e-6     // 4*pi*G_{cgs}*DensityUnits*TimeUnits^2
+#
+#
+#  no cosmology for this run
+#
+ComovingCoordinates   = 0              // Expansion OFF
+#
+#
+#  set I/O and stop/start parameters
+#
+StopTime          = 1000
+dtDataDump        = 0.5
+#CycleSkipDataDump = 5
+#StopCycle         = 100000
+DataDumpDir       = DD
+DataDumpName      = DD
+OutputTemperature           = 1        // Output temperature field.
+OutputGriddedStarParticle   = 2        // Output actively_forming_stellar_mass_density, SFR_density, etc. 
+ExtractFieldsOnly    = 0
+NewMovieParticleOn   = 2
+OutputParticleTypeGrouping  = 1
+#
+#  set hydro parameters
+#
+Gamma                       = 1.6667
+PPMDiffusionParameter       = 0        // diffusion off
+DualEnergyFormalism         = 1        // use total & internal energy
+InterpolationMethod         = 1        // SecondOrderA
+CourantSafetyNumber         = 0.2
+FluxCorrection              = 1
+ConservativeInterpolation   = 0
+HydroMethod                 = 0        // PPM
+RiemannSolver               = 4
+#
+# External Gravity
+#
+# ExternalGravity seems to not be put in the parameter file. Not sure if the parameters are tested and the code is maintained. Stick to PoinSourceGravity for now.
+#ExternalGravity               = 1
+#HaloCentralDensity            = 
+#HaloConcentration             = 
+#HaloVirialRadius              = 
+#ExternalGravityConstant       = 
+#ExternalGravityRadius         = 
+#
+#
+#  chemistry/cooling
+#
+MultiSpecies                = 2        // chemistry on
+RadiativeCooling            = 1        // cooling on
+RadiationFieldType          = 9        // constant molecular H2 photo-dissociation rate
+MetalCooling                = 1
+#
+#  Star Formation and Feedback Parameters
+#
+StarParticleCreation    = 9          // 2^3 + 2^0
+StarParticleFeedback    = 0           // not used for stars with radiative transfer
+StarParticleRadiativeFeedback = 1
+StarMakerMassEfficiency = 0.05
+StarMakerOverDensityThreshold = 10000 	// in code unit
+StarMakerMinimumMass          = 1.0     // in solar mass, for Pop III star formation, artificially added mass criteria in the code (not free parameter in this file)
+StarMakerMinimumDynamicalTime = 1.0e+07 // years
+StarEnergyToThermalFeedback   = 1.0e-04 // The fraction of the rest-mass energy of the stars created which is returned to the gas phase as thermal energy 
+StarEnergyToStellarUV         = 3.0e-06
+StarMassEjectionFraction      = 1.0e-05
+StarMakerTypeIaSNe            = 0
+#StarFeedbackDistRadius        = 3 // how many cells, integer
+#StarFeedbackDistCellStep      = 9 // max: distrad*topgridrank
+PopIIIMetalCriticalFraction   = 1.0e-06
+PopIIIStarMass                = 20 // Fixed mass, or the characteristic mass in the IMF
+PopIIIOverDensityThreshold    = 1e6
+PopIIIUseHypernovae           = 1  // use hypernova
+PopIIISupernovaRadius         = 10 // pc
+PopIIIHeliumIonization        = 1  // : on, 0: off
+PopIIIInitialMassFunction     = 0  // turn on IMF for PopIII stars, peak given by PopIIIStarMass
+PopIIIMassRange               = 10 650  // M_sun
+PopIIIInitialMassFunctionSlope = -1.3 // Salpeter
+PopIIIInitialMassFunctionSub  = 2 // 0 Oringial Saleter, 1 Flat, 2 Shingo
+PopIIISupernovaUseColour      = 1
+#StarClusterMinDynamicalTime   = 1.0e+07 // one of the star formation criteria
+#StarClusterIonizingLuminosity = 1e47   // per solar mass
+#StarClusterSNEnergy           = 6.8e48 // per solar mass
+#StarClusterSNRadius           = 10
+#StarClusterFormEfficiency     = 0.05
+#StarClusterMinimumMass        = 1 // see if we can use this module to simulate single stars
+#StarClusterCombineRadius      = 1.0e-4 // units in parsec, basically impossible since I am not resolving at this resolution
+#StarClusterUseMetalField      = 1 // 1:on, 0: off. for supernova yield
+#StarClusterHeliumIonization   = 1 // 1: on, 0: off
+
+#PopIIIStellarFeedbackDistRadius = 5 // how many cells (the physical length is then determined by the physical size of the finest grid, 20181009)
+#PopIIIStellarFeedbackDistCellStep = 15 //
+#PopIIISimpleSupernovaDistRadius = 5 // how many cells (the physical length is then determined by the physical size of the finest grid, 20181009)
+#PopIIISimpleSupernovaDistCellStep = 15 //
+#PopIIIEnergyToThermalFeedback   = 1.0e-04
+#PopIIIMakerMassEfficiency     = 0.05
+#
+# Radiatvie Transfer (Ray Tracing)
+# Must compile Enzo with make photon-yes first before make
+#
+RadiativeTransfer                    = 1
+RadiativeTransferRadiationPressure   = 1
+RadiativeTransferInitialHEALPixLevel = 3
+RadiativeTransferRaysPerCell         = 48
+RadiativeTransferSourceRadius        = 0.    // point source, if positive, radiating sphere
+RadiativeTransferPropagationSpeed    = 1.    // fraction of speed of light
+RadiativeTransferCoupledRateSolver   = 1
+#RadiativeTransferUseH2Shielding      = True  
+#RadiativeTransferH2ShieldType        = 1     
+#RadiativeTransferSourceClustering    = 1
+
+#  set grid refinement parameters
+#
+StaticHierarchy           = 0          // dynamic hierarchy
+MaximumRefinementLevel    = 10          // use up to 10 levels
+#RefineBy                 = 2          // refinement factor
+CellFlaggingMethod        = 2          // baryon mass (2) and Truelove criterion(6) for refinement 
+MinimumEfficiency         = 0.4
+#OutputFirstTimeAtLevel   = 4          // output when level 4, 5, 6, etc reached (commented out for now)
+#StopFirstTimeAtLevel      = 10         // stop if/when level 10 reached
+MinimumOverDensityForRefinement = 8    // times the initial density
+RefineByJeansLengthSafetyFactor = 4    // resolve Jeans length by 4 cells (used with CellFlaggingMethod 6)
+#MinimumMassForRefinementLevelExponent = -0.3  // see definition in user guide
+#MustRefineRegionMinRefinementLevel = 4
+#MustRefineRegionLeftEdge = 0.25 0.25 0.25
+#MustRefineRegionRightEdge = 0.75 0.75 0.75
+#MaximumSubgridSize = 100000
+#
+#  set some global parameters
+#
+GreensFunctionMaxNumber   = 10         // # of greens function at any one time
+
+
+DatabaseLocation = /home/mturk/.enzo/my_runs.db
